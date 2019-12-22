@@ -58,6 +58,8 @@ namespace ArraysTasks_Lab2
             j = resultJ;
         }
 
+        public double ProdOFNegative()
+
         public double func(int x)
         {
             return Math.Sin(x) - Math.Cos(x ^ 3) * Math.Sin((x ^ 2) - 4.2) + 4.27;
