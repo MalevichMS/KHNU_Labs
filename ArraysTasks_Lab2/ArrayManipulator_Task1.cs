@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ArraysTasks_Lab2
 {
@@ -29,13 +27,9 @@ namespace ArraysTasks_Lab2
             return arr;
         }
 
-        public double[] GetPositiveElements()
+        public IEnumerable<double> GetPositiveElements()
         {
-            double[] result;
-            result = (from n in arr
-                     where n >= 0
-                     select n) as double[];
-            return result;
+            return arr.Where(n => n>=0);
         }
 
         public static double GetParametrA(int x)
