@@ -60,7 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsolePrinter.cs" />
+    <Compile Include="ConsoleUI.cs" />
     <Compile Include="Extensions\IEnumerableExtension.cs" />
     <Compile Include="IRunner.cs" />
     <Compile Include="Iinterface.cs" />
