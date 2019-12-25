@@ -22,7 +22,7 @@ namespace StringsTasks_Lab3
             
             UserInterface.Write("\nZavd 1 --------------\n");
 
-            UserInterface.Write("Input your fullname in format {Surname} {Name} {Patronymic}\n");
+            UserInterface.Write("Input your fullname in format {Surname} {Name} {Patronymic} in English\n");
 
             try
             {
