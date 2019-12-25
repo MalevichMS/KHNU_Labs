@@ -21,7 +21,7 @@ namespace LabsKHNU
             
             int labNumb;
 
-            Console.WriteLine("input number of lab(1-4) ");
+            Console.WriteLine("input number of lab(1-3) ");
             try
             {
                 labNumb = int.Parse(Console.ReadLine())-1;
