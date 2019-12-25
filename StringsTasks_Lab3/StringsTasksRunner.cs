@@ -40,7 +40,7 @@ namespace StringsTasks_Lab3
                 UserInterface.Write("Iм'я: " + name  + $"\nKiлькiсть букв у третiм словi: {tsk1.ThirdWordCount()}\n");
 
                 
-                UserInterface.Write("Зашифроване методом здвигу вправо на ПIБ: "+ encName+"\n");
+                UserInterface.Write("Зашифроване методом здвигу вправо на 4 ПIБ: "+ encName+"\n");
                 UserInterface.Write("Розшифроване ПIБ: " + StringEncryptor.Decrypt(encName)+"\n");
             }
             catch
