@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1684F0E2-5E50-4998-B0E4-70EE137E4354}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>_1</RootNamespace>
-    <AssemblyName>1</AssemblyName>
+    <ProjectGuid>{D48B6D7A-1D11-4A54-A53C-D4926EA77ACF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FilesTasks_Lab4</RootNamespace>
+    <AssemblyName>FilesTasks_Lab4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,29 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ArrayEditor.cs" />
+    <Compile Include="ArrayIO.cs" />
+    <Compile Include="FilesTasksRunner.cs" />
+    <Compile Include="MasivZ.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ArraysTasks_Lab2\ArraysTasks_Lab2.csproj">
-      <Project>{cd2239d2-906a-4c0a-92ba-3ab862f213a5}</Project>
-      <Name>ArraysTasks_Lab2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FilesTasks_Lab4\FilesTasks_Lab4.csproj">
-      <Project>{d48b6d7a-1d11-4a54-a53c-d4926ea77acf}</Project>
-      <Name>FilesTasks_Lab4</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PrimitiveTasks_Lab1\PrimitiveTasks_Lab1.csproj">
-      <Project>{57443cb0-6fb1-444a-9eb8-75fb6004684d}</Project>
-      <Name>PrimitiveTasks_Lab1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StringsTasks_Lab3\StringsTasks_Lab3.csproj">
-      <Project>{d7436b17-be3d-4f04-9694-4da2ffc00514}</Project>
-      <Name>StringsTasks_Lab3</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Utilites\UserInterface.csproj">
       <Project>{ad7322c0-0e35-4ed4-87b9-891020969ea4}</Project>
       <Name>UserInterface</Name>
